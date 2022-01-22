@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/light_blue_600"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MAIN.Task.userdetail">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+
+
+        android:src="@drawable/userimage"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="USER NAME : "
+            android:layout_marginTop="40dp"
+            android:textSize="26dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usern"
+
+
+
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="40dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="UNIQUE ID : "
+            android:layout_marginTop="40dp"
+            android:textSize="26dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uniqueid"
+
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="PHONE NO : "
+            android:layout_marginTop="40dp"
+            android:textSize="26dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneno"
+
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="DESIGNATION : "
+            android:layout_marginTop="40dp"
+            android:textSize="26dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/designation"
+           app:textAllCaps="true"
+
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:id="@+id/logout"
+
+        android:text="logout"
+        />
+
+
+
+</LinearLayout>

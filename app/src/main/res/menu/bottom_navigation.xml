@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Channels"
+        android:enabled="true"
+        android:icon="@drawable/teamsicon"
+        />
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+
+        android:icon="@drawable/testicon"
+        android:title="Test" />
+
+    <item
+        android:id="@+id/item3"
+        android:title="Performance"
+        android:icon="@drawable/pericon"
+        android:enabled="true"
+
+        />
+    <item
+        android:id="@+id/item4"
+        android:title="Profile"
+        android:enabled="true"
+        android:icon="@drawable/profileicon"
+
+        />
+
+
+
+</menu>

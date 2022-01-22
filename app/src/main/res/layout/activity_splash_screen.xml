@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+
+    tools:context=".MAIN.SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/iconSplash"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/applogo"/>
+
+            <TextView
+                android:id="@+id/bing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="ONE STOP SOLUTION"
+                android:layout_below="@id/iconSplash"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+
+                android:textSize="30.0sp" />
+
+
+
+
+        </RelativeLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Developed By Abhijit Shaw"
+    android:gravity="center"
+    android:layout_marginLeft="70dp"
+    android:layout_marginBottom="10dp"
+    android:textSize="20dp"
+    android:layout_alignParentBottom="true"
+    />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

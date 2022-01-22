@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue_A400"
+
+    tools:context=".MAIN.Task.channel">
+
+    <!-- TODO: Update channel fragment layout -->
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+
+        android:id="@+id/cchannel"
+        android:text="Create Channel"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pf"
+
+       android:layout_centerInParent="true"
+        android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/channelrv"
+        tools:itemCount="1"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        tools:listitem="@layout/item_channel"
+        android:layout_below="@id/cchannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

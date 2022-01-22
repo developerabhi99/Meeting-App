@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".LOGIN.OtpScreen">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your OTP"
+        app:textAllCaps="true"
+        android:textSize="25sp"
+
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="number"
+        android:id="@+id/digitone"
+        android:hint="0"
+        android:textSize="70dp"
+
+        android:maxLength="1"
+
+
+        />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:inputType="number"
+            android:id="@+id/digittwo"
+            android:hint="0"
+            android:textSize="70dp"
+
+            android:maxLength="1"
+
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:inputType="number"
+            android:id="@+id/digitthree"
+            android:hint="0"
+            android:textSize="70dp"
+
+            android:maxLength="1"
+
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:inputType="number"
+            android:id="@+id/digitfour"
+            android:hint="0"
+            android:textSize="70dp"
+
+            android:maxLength="1"
+
+
+            />
+        </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/otp"
+        android:text="Verify"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

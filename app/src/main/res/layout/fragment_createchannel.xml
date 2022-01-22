@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:theme="@style/ThemeOverlay.Onestopsolution.FullscreenContainer"
+    tools:context=".MAIN.Task.createchannel">
+
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Channel Name"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:id="@+id/ccname"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject Name"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:id="@+id/ccteacher"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Semester"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:id="@+id/ccsem"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/ccsave"
+        android:text="SAVE"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+</LinearLayout>
