@@ -24,8 +24,8 @@ class Login : AppCompatActivity() {
 
         login.setOnClickListener{
             //val ph=countryCode_picker.selectedCountryCode.toString()+phonenumber.text.toString()
-
-            checkusernumber(countryCode_picker.selectedCountryCode.toString()+phonenumber.text.toString())
+            //startActivity(Intent(this,OtpScreen::class.java))
+           checkusernumber(countryCode_picker.selectedCountryCode.toString()+phonenumber.text.toString())
 
         }
 

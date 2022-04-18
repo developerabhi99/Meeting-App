@@ -51,9 +51,14 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.item2 -> {
-                    // Respond to navigation item 2 click
-                    replacefragment(test());
-                   // startActivity(Intent(this, Test::class.java))
+                    val bundle = Bundle()
+                    bundle.putString("my_channel", phuser)
+                    val f = test()
+                    f.arguments = bundle
+                    if (savedInstanceState == null) {
+                        supportFragmentManager.beginTransaction().add(R.id.frame,f).commit()
+                    }
+
                     true
                 }
                 R.id.item3 -> {

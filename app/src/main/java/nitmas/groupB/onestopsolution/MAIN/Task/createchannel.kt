@@ -54,17 +54,20 @@ lateinit var cid: String
         sem=csem.getText().toString()
        // number= Random().nextInt(99999)
         val bundle = arguments
-        val currentuser = bundle!!.getString("my_keychannel")
-        //Toast.makeText(activity, "bundlecreate $currentuser", Toast.LENGTH_SHORT).show()
+         currentuser = bundle!!.getString("my_keychannel").toString()
+       // Toast.makeText(activity, "bundlecreate $currentuser", Toast.LENGTH_SHORT).show()
 //
       // cid=cname.getText().toString().substring(5);
          //cid="984"
 
         save.setOnClickListener {
-           Toast.makeText(context,"${cname.getText().toString()}",Toast.LENGTH_LONG).show()
-            postchannel(cname.getText().toString().substring(5)+Random
-                ().nextInt(9999),cname.getText().toString(),cteacher.getText().toString(),csem.getText().toString(),currentuser.toString())
-            startActivity(Intent(context, MainActivity::class.java))
+           //Toast.makeText(activity, "bundlecreate ${currentuser.toString()}", Toast.LENGTH_SHORT).show()
+           Toast.makeText(context,"${cname.getText().toString().substring(3)+Random().nextInt(999999)}",Toast.LENGTH_LONG).show()
+            postchannel(cname.getText().toString().substring(3)+Random().nextInt(999999),
+                cname.text.toString(),
+                cteacher.text.toString(),
+                csem.text.toString(),currentuser.toString())
+
         }
 
         return rootview
@@ -83,6 +86,7 @@ lateinit var cid: String
             var mStringRequest =
                 object : StringRequest(Method.POST, URL, Response.Listener { response ->
                     Toast.makeText(context,"Inserted Successfully",Toast.LENGTH_SHORT).show()
+                //implement this fragment to channel fragment
 
 
                 }, Response.ErrorListener { error ->

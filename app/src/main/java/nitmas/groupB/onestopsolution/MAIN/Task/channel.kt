@@ -61,7 +61,7 @@ class channel : Fragment(), handleclicki {
         val bundle = arguments
         val valu = bundle!!.getString("my_channel")
        Toast.makeText(activity, "bundle $valu", Toast.LENGTH_SHORT).show()
-        //fetchData()
+
         cchanne.setOnClickListener {
             val bundle = Bundle()
             bundle.putString("my_keychannel", valu.toString())
@@ -75,11 +75,6 @@ class channel : Fragment(), handleclicki {
 
 
         return rootview
-
-
-
-
-
     }
 
     private fun fetchdatacurrent(ph: String)  {
